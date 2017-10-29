@@ -1,5 +1,4 @@
-class httpd24_httpd::service
-{
+class httpd24_httpd::service {
   service { "httpd24-httpd":
     ensure => "running",
     hasstatus => true,
