@@ -1,0 +1,26 @@
+{
+  "name": "httpd24_httpd",
+  "version": "0.1.0",
+  "author": "templesofcode",
+  "summary": "httpd24-httpd package installer",
+  "license": "GPLv3",
+  "source": "https://github.com/templesofcode/httpd24_httpd",
+  "project_page": "https://github.com/templesofcode/httpd24_httpd",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0"
+    }
+  ],
+  "description": "puppet module to install httpd24_httpd",
+  "dependencies": []
+}
